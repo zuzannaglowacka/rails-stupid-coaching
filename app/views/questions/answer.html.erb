@@ -1,0 +1,13 @@
+<!-- goal: -->
+<div class="container">
+  <h1>Stupid coaching</h1>
+    <div class="your-answer">
+      <h5> <%= @question %> </h5>
+      <p> -You</p>
+    </div>
+    <div class="coach-answer">
+      <h5><%= @answer %></h5>
+      <p>-Coach</p>
+    </div>
+      <%= link_to "Ask a new question", ask_path %>
+</div>
